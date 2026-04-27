@@ -806,7 +806,7 @@ document.getElementById('hubOrderForm').addEventListener('submit', function(e) {
     submitBtn.disabled = true;
 
     // PASTE YOUR NEW GOOGLE SCRIPT URL HERE:
-    const scriptURL = 'YOUR_NEW_WEB_APP_URL_HERE';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbw3Ai_V-YfqQwsc_jxznhrYpu4J7NEaRu6rDrv1bLiUPxlkyQwhwy2cOgsUp-W-4OtVxA/exec';
 
     fetch(scriptURL, { method: 'POST', body: new FormData(form) })
         .then(response => {
